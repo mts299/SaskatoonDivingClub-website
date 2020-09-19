@@ -45,8 +45,9 @@ footer p {
 }
 .dive {
 background-image: url('imgs/Jamie.png');
-height: 100%;
-background-position: center;
+height: auto;
+max-width: 100%;
+background-position: bottom;
 background-repeat: no-repeat;
 background-size: cover;
 }
