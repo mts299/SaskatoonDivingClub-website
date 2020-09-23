@@ -52,6 +52,13 @@ background-repeat: no-repeat;
 background-size: cover;
 }
 
+.icon-badge {
+width:100px;
+height:100px;
+position: relative;
+left:40%;
+}
+
 /* Icon 1 */
 
 .animated-icon1, .animated-icon2, .animated-icon3 {
