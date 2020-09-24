@@ -12,6 +12,7 @@ $(document).ready(function () {
 
     $('.animated-icon3').toggleClass('open');
   });
+  new WOW().init();
 });
 
 var images=new Array('./imgs/Jamie.png','./imgs/Margo_quin_syncro.png');

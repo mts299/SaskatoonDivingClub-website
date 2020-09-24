@@ -52,11 +52,10 @@ background-repeat: no-repeat;
 background-size: cover;
 }
 
-.icon-badge {
-width:100px;
-height:100px;
-position: relative;
-left:40%;
+.social-button {
+    float: right;
+    border-radius: 12px;
+    position: right;
 }
 
 /* Icon 1 */
@@ -103,8 +102,12 @@ background: #e65100;
 background: #e3f2fd;
 }
 
+.navbar-nav li {
+  margin: 8px ;
+}
+
 .animated-icon3 span {
-background: #f3e5f5;
+background: orange;
 }
 
 .animated-icon1 span:nth-child(1) {
