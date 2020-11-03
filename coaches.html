@@ -1,0 +1,886 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v4.1.1">
+    <title>Saskatoon Diving Club</title>
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+ 
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/album/">
+
+    <!-- Bootstrap core CSS -->
+    <link href="./assets/dist/css/bootstrap.min.css" rel="stylesheet"> 
+    <link href="./css/mdb.min.css" rel="stylesheet">
+    
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/jquery.js"></script>
+
+    <script src="./src/js/free/wow.js"></script>
+
+
+    <script src="./js/album.js"></script>
+    <script src="./js/mdb.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+  
+   
+    
+    
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+</style>
+    <!-- Custom styles for this template -->
+    <link href="album.css" rel="stylesheet">
+    <link href="coaches.css" rel="stylesheet">
+
+  </head>
+  <body>
+
+<!--Navbar-->
+<nav class="navbar navbar-dark  blue-gradient darken-2" height=40px>
+
+  <!-- Navbar brand -->
+  <a class="navbar-brand" href="#"><Strong>Saskatoon Diving Club</strong> 
+  </a>
+
+  <ul class="navbar-nav ml-auto nav-flex-icons">
+      <li class="nav-item ">
+        <a class="nav-link waves-effect waves-light">
+          <i class="fab fa-facebook-f"></i> Family </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link waves-effect waves-light">
+          <i class="fab fa-facebook-f"></i> Club </a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link waves-effect waves-light">
+          <i class="fab pink-text fa-instagram"></i> Instagram </a>
+      </li>     
+  </ul>
+
+  <!-- Collapse button -->
+  <button class="navbar-toggler third-button" type="button" data-toggle="collapse" data-target="#navbarSupportedContent22"
+    aria-controls="navbarSupportedContent22" aria-expanded="false" aria-label="Toggle navigation">
+    <div class="animated-icon3"><span></span><span></span><span></span></div>
+  </button>
+
+  <!-- Collapsible content -->
+  <div class="collapse navbar-collapse" id="navbarSupportedContent22">
+
+    <!-- Links -->
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+          <a class="nav-link" href="#">COVID 19</a>
+      </li>
+      <li class="nav-item">
+          <a class="nav-link" href="#">Diving 101</a>
+      </li>
+
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">about us</a>
+        <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropedownMenuLink">
+            <a class="dropdown-item" href="#">Coaches</a>
+            <a class="dropdown-item" href="#">Parent Board</a>
+            <a class="dropdown-item" href="#">Facilities</a>
+            <a class="dropdown-item" href="#">Contact Us</a>
+       
+        </div>
+      </li>
+
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Programs</a>
+        <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropedownMenuLink">
+            <a class="dropdown-item" href="#">Guppies (4-6 yrs)</a>
+            <a class="dropdown-item" href="#">Junior Development (6-8 yrs)</a>
+            <a class="dropdown-item" href="#">Learn To Dive (6-14 yrs)</a>
+            <a class="dropdown-item" href="#">Pre-Competitve (8-17 yrs)</a>
+            <a class="dropdown-item" href="#">Jr. Novice (invitational)</a>
+            <a class="dropdown-item" href="#">Sr. Novice (invitational)</a>
+            <a class="dropdown-item" href="#">Pre-National (invitational)</a>
+            <a class="dropdown-item" href="#">Masters (18+)</a>
+            <a class="dropdown-item" href="#">National Team (invitational)</a>
+        </div>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="#">Calendar</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="#">News</a>
+      </li>
+ 
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Parental Zone</a>
+        <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropedownMenuLink">
+            <a class="dropdown-item" href="#">Bingos</a>
+            <a class="dropdown-item" href="#">Policies</a>
+            <a class="dropdown-item" href="#">Travel Waivers</a>
+        </div>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="#">Merchandise</a>
+      </li>
+ 
+       <!-- Links -->
+    </ul>
+  </div>
+  <!-- Collapsible content -->
+
+</nav>
+<!--/.Navbar-->
+
+<!-- Jumbotron -->
+<div class="jumbotron p-0" >
+
+  <!-- Card image -->
+  <div class="view overlay rounded-top">
+    <img src="imgs/splash.jpg" class="img-fluid" alt="Sample image">
+    <a href="#">
+      <div class="mask rgba-white-slight"></div>
+    </a>
+  </div>
+
+  <!-- Card content -->
+  <div class="card-body text-center">
+
+    <!-- Title -->
+    <h3 class="card-title h3 my-4"><strong>Coaches of Saskatoon Diving Club</strong></h3>
+    <!-- Text -->
+    <p class="card-text py-2">Saskatoon Diving Club prides our club on the quality of coaching. We provide from talented athletes traning upcoming divers, experience coaches designing new programs and leading our future coaches, to national olympic divers coaching the next generation of olympians. 
+    See what it takes to become a coach!</p>
+    <!-- Button -->
+    <a href="#" class="btn sunny-morning-gradient btn-rounded mb-4">Become A Coach Today</a>
+   </div>
+</div>
+<section class="coaches" style="background: #116EC8" >
+ <div class="container" >
+  	<!-- Grid row -->
+  <div class="row">
+
+    <!-- Grid column -->
+    <div class="col-md-4 mb-5 mt-5">
+
+      <div class="card">
+        <div id="card-1" class="card  text-center">
+            <!-- Image -->
+            <div class="card-header color-block sunny-morning-gradient default-header"></div>
+
+            <!-- Avatar -->
+              <img src="./imgs/default.jpg" class="rounded-circle white coach card-img-overlay" 
+                alt="First sample avatar image">
+            <!-- Content -->
+            <div class="card-body">
+              <h4 class="font-weight-bold mt-1 mb-3">Mary Caroll</h4>
+              <p class="font-weight-bold dark-grey-text">High performance coach, Sr. National coach</p>
+            </div>
+            <!-- Content -->
+            <div class="card-img-overlay aboutme scrollbar scrollbar-primary">
+              <!-- Content -->
+              <div class="force-overflow">
+              <h4 class="font-weight-bold mt-4 mb-2">
+                <strong>About me</strong>
+              </h4>
+              <hr>
+              <p> Went to the Summer Olympic games in 1992 and has been coaching since 1990. She came to Saskatoon in 2008 with her husband, Steve Caroll, to build a well rounded diving club. 
+              Since then she has coached all levels of diving class and worked closely with Rylan Weins an Olympic contender for the 2021 Summer Olympics. She was named National Junior Coach of the year
+              in 2017. But don't be fooled by her miming at the pool and big expressions, all of her National divers cherish every moment with her as she tells stories and brings life lessons to her classes. She loves tim hortons and hates technology. 
+              </p>
+              <hr>
+              <!-- Social Icons
+
+              <ul class="list-inline list-unstyled">
+                <li class="list-inline-item">
+                  <a class="p-2 fa-lg fb-ic">
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a class="p-2 fa-lg pin-ic">
+                    <i class="fab fa-pinterest"> </i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a class="p-2 fa-lg ins-ic">
+                    <i class="fab fa-instagram"> </i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a class="p-2 fa-lg tw-ic">
+                    <i class="fab fa-twitter"> </i>
+                  </a>
+                </li>
+              </ul> -->
+              <!-- Triggering button -->
+              </div>  
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <!-- Grid column -->
+    <!-- Grid column -->
+    <div class="col-md-4 mb-5 mt-5">
+
+      <div class="card">
+        <div id="card-1" class="card  text-center">
+            <!-- Image -->
+            <!-- Image -->
+            <div class="card-header color-block sunny-morning-gradient default-header"></div>
+
+            <!-- Avatar -->
+              <img src="./imgs/default.jpg" class="rounded-circle white coach card-img-overlay" 
+                alt="First sample avatar image">            <!-- Content -->
+            <div class="card-body">
+              <h4 class="font-weight-bold mt-1 mb-3">Steve Caroll</h4>
+              <p class="font-weight-bold dark-grey-text">Head Coach and Jr. Nationals coach</p>
+            </div>
+            <div class="card-img-overlay aboutme scrollbar scrollbar-primary">
+              <div class="force-overflow">
+              <!-- Content -->
+              <h4 class="font-weight-bold mt-4 mb-2">
+                <strong>About me</strong>
+              </h4>
+              <hr>
+              <p> Steve grew up and Newfoundland Labourdor as a young male diver. He went on to moving to Saskatoon to giving the Saskatoon Diving Club a jump start as the head coach. Working from the basics he prompoted a fun, safe recreational program and a well developed competitive program. He has coached the Sr. National team and now focuses on Jr. National team while keeping an eye on the Junior development program. And if you are not seeing him goof around with the kids he
+              coaches or giving them directions on how to be the best diver they can be he is helping out other coaches, fixing equipment, or running to dive meetings. He is the back bone of this club even if it means dressing up in thick wool socks, shorts, and winter toque <b>eh?</b>
+              </p>
+              <hr>
+              </div>
+              <!-- Social Icons
+
+              <ul class="list-inline list-unstyled">
+                <li class="list-inline-item">
+                  <a class="p-2 fa-lg fb-ic">
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a class="p-2 fa-lg pin-ic">
+                    <i class="fab fa-pinterest"> </i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a class="p-2 fa-lg ins-ic">
+                    <i class="fab fa-instagram"> </i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a class="p-2 fa-lg tw-ic">
+                    <i class="fab fa-twitter"> </i>
+                  </a>
+                </li>
+              </ul> -->
+              <!-- Triggering button -->
+            </div>
+        </div>
+      </div>
+
+    </div>
+    <!-- Grid column -->
+  
+     <!-- Grid column -->
+    <div class="col-md-4 mb-5 mt-5">
+
+      <div class="card">
+        <div id="card-1" class="card  text-center">
+            <!-- Image -->
+              <img class="card-img" src="./imgs/_DAN2685.jpg" alt="Team member card image">
+            <!-- Avatar -->
+              <img src="./imgs/sydney_caroll.jpg" class="rounded-circle white coach card-img-overlay"
+                alt="First sample avatar image">
+            <!-- Content -->
+            <div class="card-body">
+              <h4 class="font-weight-bold mt-1 mb-3">Sydney Caroll</h4>
+              <p class="font-weight-bold dark-grey-text">Dive Guppies Coach</p>
+            </div>
+            <div class="card-img-overlay aboutme scrollbar scrollbar-primary">
+              <div class="force-overflow">
+              <!-- Content -->
+              <h4 class="font-weight-bold mt-4 mb-2">
+                <strong>About me</strong>
+              </h4>
+              <hr>
+              <p> You may have seen her parents on the pool deck and her in the water as she trains to be an olympic synchonize swimmer but she also coaches. Sydney at a young age started in gymnastics and soon left to be in the water like her parents but as a synchro swimmer. She trains daily on perfect her skills and improving her artistic forms. However, don't be fooled by this quiet shy girl she also loves to have fun and play around on the mats. This makes her the best coach for Dive
+              Guppies! 
+              </p>
+              <hr>
+              </div>
+              <!-- Social Icons
+
+              <ul class="list-inline list-unstyled">
+                <li class="list-inline-item">
+                  <a class="p-2 fa-lg fb-ic">
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a class="p-2 fa-lg pin-ic">
+                    <i class="fab fa-pinterest"> </i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a class="p-2 fa-lg ins-ic">
+                    <i class="fab fa-instagram"> </i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a class="p-2 fa-lg tw-ic">
+                    <i class="fab fa-twitter"> </i>
+                  </a>
+                </li>
+              </ul> -->
+              <!-- Triggering button -->
+            </div>
+        </div>
+      </div>
+
+    </div>
+    <!-- Grid column -->   
+
+    <!-- Grid column -->
+    <div class="col-md-4 mb-5">
+
+      <div class="card">
+        <div id="card-1" class="card  text-center">
+            <!-- Image -->
+            <!-- Image -->
+            <div class="card-header color-block sunny-morning-gradient default-header"></div>
+
+            <!-- Avatar -->
+              <img src="./imgs/default.jpg" class="rounded-circle white coach card-img-overlay" 
+                alt="First sample avatar image">            <!-- Content -->
+            <!-- Content -->
+            <div class="card-body">
+              <h4 class="font-weight-bold mt-1 mb-3">Marina Schmidt</h4>
+              <p class="font-weight-bold dark-grey-text">Pre-Comp Coach and Recreational Coordinator</p>
+            </div>
+            <div class="card-img-overlay aboutme scrollbar scrollbar-primary">
+              <div class="force-overflow">                
+                  <!-- Content -->
+              <h4 class="font-weight-bold mt-4 mb-2">
+                <strong>About me</strong>
+              </h4>
+              <hr>
+              <p> Marina is from Calgary, Alberta and moved to Sasktoon for University in 2009. As she met Steve in a freeze tag game with some summer camp divers and soon met Mary when her bike broke down heading to diving. She soon swept the Club away with her passion for diving and willingness to help out where ever she could. She has three degrees from the University of Saskatchewan and works at the research facility on campus. But don't let her smarts fool you, she continues to
+              spread her passion for diving towards recreational diving and works on bring new diving programs to the club to be more inclusive to various
+              communities and groups. 
+              </p>
+              <hr>
+              </div>
+              <!-- Social Icons
+
+              <ul class="list-inline list-unstyled">
+                <li class="list-inline-item">
+                  <a class="p-2 fa-lg fb-ic">
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a class="p-2 fa-lg pin-ic">
+                    <i class="fab fa-pinterest"> </i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a class="p-2 fa-lg ins-ic">
+                    <i class="fab fa-instagram"> </i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a class="p-2 fa-lg tw-ic">
+                    <i class="fab fa-twitter"> </i>
+                  </a>
+                </li>
+              </ul> -->
+              <!-- Triggering button -->
+            </div>
+        </div>
+      </div>
+
+    </div>
+    <!-- Grid column -->
+    <!-- Grid column -->
+    <div class="col-md-4 mb-5">
+
+      <div class="card">
+        <div id="card-1" class="card  text-center">
+            <!-- Image -->
+            <div class="card-header color-block sunny-morning-gradient default-header"></div>
+
+            <!-- Avatar -->
+              <img src="./imgs/default.jpg" class="rounded-circle white coach card-img-overlay" 
+                alt="First sample avatar image">            <!-- Content -->
+            <!-- Content -->
+            <div class="card-body">
+              <h4 class="font-weight-bold mt-1 mb-3">Sydney Hesselburg </h4>
+              <p class="font-weight-bold dark-grey-text">Pre-Nationals Coach</p>
+            </div>
+            <div class="card-img-overlay aboutme scrollbar scrollbar-primary">
+              <div class="force-overflow">                
+              <!-- Content -->
+              <h4 class="font-weight-bold mt-4 mb-2">
+                <strong>About me</strong>
+              </h4>
+              <hr>
+              <p>Whoops looks like our coach is out making a splash! Keep a look out for when they dry off tell us about themseleves.
+              </p>
+              <hr>
+              </div>
+              <!-- Social Icons
+
+              <ul class="list-inline list-unstyled">
+                <li class="list-inline-item">
+                  <a class="p-2 fa-lg fb-ic">
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a class="p-2 fa-lg pin-ic">
+                    <i class="fab fa-pinterest"> </i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a class="p-2 fa-lg ins-ic">
+                    <i class="fab fa-instagram"> </i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a class="p-2 fa-lg tw-ic">
+                    <i class="fab fa-twitter"> </i>
+                  </a>
+                </li>
+              </ul> -->
+              <!-- Triggering button -->
+            </div>
+        </div>
+      </div>
+
+    </div>
+    <!-- Grid column -->
+    <!-- Grid column -->
+    <div class="col-md-4 mb-5">
+
+      <div class="card">
+        <div id="card-1" class="card  text-center">
+            <!-- Image -->
+            <div class="card-header color-block sunny-morning-gradient default-header"></div>
+
+            <!-- Avatar -->
+              <img src="./imgs/default.jpg" class="rounded-circle white coach card-img-overlay" 
+                alt="First sample avatar image">            <!-- Content -->
+            <!-- Content -->
+            <div class="card-body">
+              <h4 class="font-weight-bold mt-1 mb-3">Kayla Boechler</h4>
+              <p class="font-weight-bold dark-grey-text">Jr. Novice Coach</p>
+            </div>
+            <!-- Content -->
+            <div class="card-img-overlay aboutme">
+              <!-- Content -->
+              <h4 class="font-weight-bold mt-4 mb-2">
+                <strong>About me</strong>
+              </h4>
+              <hr>
+              <p> Whoops looks like our coach is out making a splash! Keep a look out for when they dry off tell us about themseleves. 
+              </p>
+              <hr>
+              <!-- Social Icons
+
+              <ul class="list-inline list-unstyled">
+                <li class="list-inline-item">
+                  <a class="p-2 fa-lg fb-ic">
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a class="p-2 fa-lg pin-ic">
+                    <i class="fab fa-pinterest"> </i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a class="p-2 fa-lg ins-ic">
+                    <i class="fab fa-instagram"> </i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a class="p-2 fa-lg tw-ic">
+                    <i class="fab fa-twitter"> </i>
+                  </a>
+                </li>
+              </ul> -->
+              <!-- Triggering button -->
+            </div>
+        </div>
+      </div>
+
+    </div>
+    <!-- Grid column -->
+     <!-- Grid column -->
+    <div class="col-md-4 mb-5">
+
+      <div class="card">
+        <div id="card-1" class="card  text-center">
+            <!-- Image -->
+            <div class="card-header color-block sunny-morning-gradient default-header"></div>
+
+            <!-- Avatar -->
+              <img src="./imgs/default.jpg" class="rounded-circle white coach card-img-overlay" 
+                alt="First sample avatar image">            <!-- Content -->
+            <!-- Content -->
+            <div class="card-body">
+              <h4 class="font-weight-bold mt-1 mb-3">Tyler Boechler</h4>
+              <p class="font-weight-bold dark-grey-text">Pre-Nationnals Coach</p>
+            </div>
+            <!-- Content -->
+            <div class="card-img-overlay aboutme">
+              <!-- Content -->
+              <h4 class="font-weight-bold mt-4 mb-2">
+                <strong>About me</strong>
+              </h4>
+              <hr>
+              <p> Whoops looks like our coach is out making a splash! Keep a look out for when they dry off tell us about themseleves.
+              </p>
+              <hr>
+              <!-- Social Icons
+
+              <ul class="list-inline list-unstyled">
+                <li class="list-inline-item">
+                  <a class="p-2 fa-lg fb-ic">
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a class="p-2 fa-lg pin-ic">
+                    <i class="fab fa-pinterest"> </i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a class="p-2 fa-lg ins-ic">
+                    <i class="fab fa-instagram"> </i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a class="p-2 fa-lg tw-ic">
+                    <i class="fab fa-twitter"> </i>
+                  </a>
+                </li>
+              </ul> -->
+              <!-- Triggering button -->
+            </div>
+        </div>
+      </div>
+
+    </div>
+    <!-- Grid column -->
+      <!-- Grid column -->
+    <div class="col-md-4 mb-5">
+
+      <div class="card">
+        <div id="card-1" class="card  text-center">
+            <!-- Image -->
+            <div class="card-header color-block sunny-morning-gradient default-header"></div>
+
+            <!-- Avatar -->
+              <img src="./imgs/default.jpg" class="rounded-circle white coach card-img-overlay" 
+                alt="First sample avatar image">            <!-- Content -->
+            <!-- Content -->
+            <div class="card-body">
+                <h4 class="font-weight-bold mt-1 mb-3">Quinne </h4>
+              <p class="font-weight-bold dark-grey-text">Jr. Developement Coach</p>
+            </div>
+            <!-- Content -->
+            <div class="card-img-overlay aboutme">
+              <!-- Content -->
+              <h4 class="font-weight-bold mt-4 mb-2">
+                <strong>About me</strong>
+              </h4>
+              <hr>
+              <p> Whoops looks like our coach is out making a splash! Keep a look out for when they dry off tell us about themseleves.
+              </p>
+              <hr>
+              <!-- Social Icons
+
+              <ul class="list-inline list-unstyled">
+                <li class="list-inline-item">
+                  <a class="p-2 fa-lg fb-ic">
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a class="p-2 fa-lg pin-ic">
+                    <i class="fab fa-pinterest"> </i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a class="p-2 fa-lg ins-ic">
+                    <i class="fab fa-instagram"> </i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a class="p-2 fa-lg tw-ic">
+                    <i class="fab fa-twitter"> </i>
+                  </a>
+                </li>
+              </ul> -->
+              <!-- Triggering button -->
+            </div>
+        </div>
+      </div>
+
+    </div>
+    <!-- Grid column -->
+       <!-- Grid column -->
+    <div class="col-md-4 mb-5">
+
+      <div class="card">
+        <div id="card-1" class="card  text-center">
+            <!-- Image -->
+            <div class="card-header color-block sunny-morning-gradient default-header"></div>
+
+            <!-- Avatar -->
+              <img src="./imgs/default.jpg" class="rounded-circle white coach card-img-overlay" 
+                alt="First sample avatar image">            <!-- Content -->
+            <!-- Content -->
+            <div class="card-body">
+              <h4 class="font-weight-bold mt-1 mb-3">Alison Cey</h4>
+              <p class="font-weight-bold dark-grey-text">Learn To Dive Coach</p>
+            </div>
+            <!-- Content -->
+            <div class="card-img-overlay aboutme">
+              <!-- Content -->
+              <h4 class="font-weight-bold mt-4 mb-2">
+                <strong>About me</strong>
+              </h4>
+              <hr>
+              <p> Whoops looks like our coach is out making a splash! Keep a look out for when they dry off tell us about themseleves.
+              </p>
+              <hr>
+              <!-- Social Icons
+
+              <ul class="list-inline list-unstyled">
+                <li class="list-inline-item">
+                  <a class="p-2 fa-lg fb-ic">
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a class="p-2 fa-lg pin-ic">
+                    <i class="fab fa-pinterest"> </i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a class="p-2 fa-lg ins-ic">
+                    <i class="fab fa-instagram"> </i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a class="p-2 fa-lg tw-ic">
+                    <i class="fab fa-twitter"> </i>
+                  </a>
+                </li>
+              </ul> -->
+              <!-- Triggering button -->
+            </div>
+        </div>
+      </div>
+
+    </div>
+    <!-- Grid column -->
+        <!-- Grid column -->
+    <div class="col-md-4 mb-5">
+
+      <div class="card">
+        <div id="card-1" class="card  text-center">
+            <!-- Image -->
+            <div class="card-header color-block sunny-morning-gradient default-header"></div>
+
+            <!-- Avatar -->
+              <img src="./imgs/default.jpg" class="rounded-circle white coach card-img-overlay" 
+                alt="First sample avatar image">            <!-- Content -->
+            <!-- Content -->
+            <div class="card-body">
+              <h4 class="font-weight-bold mt-1 mb-3">Lauren Cey</h4>
+              <p class="font-weight-bold dark-grey-text">Learn To Dive Coach</p>
+            </div>
+            <!-- Content -->
+            <div class="card-img-overlay aboutme">
+              <!-- Content -->
+              <h4 class="font-weight-bold mt-4 mb-2">
+                <strong>About me</strong>
+              </h4>
+              <hr>
+              <p> Whoops looks like our coach is out making a splash! Keep a look out for when they dry off tell us about themseleves.
+              </p>
+              <hr>
+              <!-- Social Icons
+
+              <ul class="list-inline list-unstyled">
+                <li class="list-inline-item">
+                  <a class="p-2 fa-lg fb-ic">
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a class="p-2 fa-lg pin-ic">
+                    <i class="fab fa-pinterest"> </i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a class="p-2 fa-lg ins-ic">
+                    <i class="fab fa-instagram"> </i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a class="p-2 fa-lg tw-ic">
+                    <i class="fab fa-twitter"> </i>
+                  </a>
+                </li>
+              </ul> -->
+              <!-- Triggering button -->
+            </div>
+        </div>
+      </div>
+
+    </div>
+    <!-- Grid column -->
+       <!-- Grid column -->
+    <div class="col-md-4 mb-5">
+
+      <div class="card">
+        <div id="card-1" class="card  text-center">
+            <!-- Image -->
+            <div class="card-header color-block sunny-morning-gradient default-header"></div>
+
+            <!-- Avatar -->
+              <img src="./imgs/default.jpg" class="rounded-circle white coach card-img-overlay" 
+                alt="First sample avatar image">            <!-- Content -->
+            <!-- Content -->
+            <div class="card-body">
+              <h4 class="font-weight-bold mt-1 mb-3">Margo </h4>
+              <p class="font-weight-bold dark-grey-text">Dive Guppies Coach</p>
+            </div>
+            <!-- Content -->
+            <div class="card-img-overlay aboutme scrollbar scrollbar-primary">
+              <!-- Content -->
+              <h4 class="font-weight-bold mt-4 mb-2">
+                <strong>About me</strong>
+              </h4>
+              <hr>
+               <p> Whoops looks like our coach is out making a splash! Keep a look out for when they dry off tell us about themseleves.
+              </p>
+              <hr>
+              <!-- Social Icons
+
+              <ul class="list-inline list-unstyled">
+                <li class="list-inline-item">
+                  <a class="p-2 fa-lg fb-ic">
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a class="p-2 fa-lg pin-ic">
+                    <i class="fab fa-pinterest"> </i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a class="p-2 fa-lg ins-ic">
+                    <i class="fab fa-instagram"> </i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a class="p-2 fa-lg tw-ic">
+                    <i class="fab fa-twitter"> </i>
+                  </a>
+                </li>
+              </ul> -->
+              <!-- Triggering button -->
+            </div>
+        </div>
+      </div>
+
+    </div>
+    <!-- Grid column -->
+        
+        <!-- Grid column -->
+    <div class="col-md-4 mb-5">
+
+      <div class="card">
+        <div id="card-1" class="card  text-center">
+            <!-- Image -->
+            <div class="card-header color-block sunny-morning-gradient default-header"></div>
+
+            <!-- Avatar -->
+              <img src="./imgs/default.jpg" class="rounded-circle white coach card-img-overlay" 
+                alt="First sample avatar image">            <!-- Content -->
+            <!-- Content -->
+            <div class="card-body">
+              <h4 class="font-weight-bold mt-1 mb-3">Conor Burnbridge</h4>
+              <p class="font-weight-bold dark-grey-text">Belts Coach</p>
+            </div>
+            <!-- Content -->
+            <div class="card-img-overlay aboutme">
+              <!-- Content -->
+              <h4 class="font-weight-bold mt-4 mb-2">
+                <strong>About me</strong>
+              </h4>
+              <hr>
+              <p> Whoops looks like our coach is out making a splash! Keep a look out for when they dry off tell us about themseleves. 
+              </p>
+              <hr>
+              <!-- Social Icons
+
+              <ul class="list-inline list-unstyled">
+                <li class="list-inline-item">
+                  <a class="p-2 fa-lg fb-ic">
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a class="p-2 fa-lg pin-ic">
+                    <i class="fab fa-pinterest"> </i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a class="p-2 fa-lg ins-ic">
+                    <i class="fab fa-instagram"> </i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a class="p-2 fa-lg tw-ic">
+                    <i class="fab fa-twitter"> </i>
+                  </a>
+                </li>
+              </ul> -->
+              <!-- Triggering button -->
+            </div>
+        </div>
+      </div>
+
+    </div>
+    <!-- Grid column -->
+                          
+  </div>
+  <!-- Grid row -->
+
+  </div>
+  </section>
+</div>
