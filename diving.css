@@ -1,0 +1,32 @@
+.diving-gradient
+{
+    background: rgb(0,41,111);
+    background: linear-gradient(45deg, rgba(0,41,111,1) 39%,
+    rgba(17,110,200,1) 58%, rgba(66,168,236,1) 71%,
+    rgba(170,221,246,1) 87%, rgba(253,149,17,1) 95%);
+}
+
+.diving-orange
+{
+    background: #FD9511;
+}
+
+.diving-light-blue
+{
+    background: #AADDF6;
+}
+
+.diving-blue
+{
+    background: #42A8EC;
+}
+
+.diving-blueberry
+{
+    background: #116EC8;
+}
+
+.diving-dark-blue
+{
+    background: #00296F;
+}
