@@ -30,3 +30,11 @@
 {
     background: #00296F;
 }
+
+/* Red border */
+hr.line {
+  border-top: 1px solid;
+  color: #FD9511;
+
+
+}
